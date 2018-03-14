@@ -9,4 +9,4 @@ Contains functionality to send [Pushbullet](https://www.pushbullet.com) powered 
 If you use this code in a scientific publication please cite the following paper: https://doi.org/10.1101/276097
 
 ## Note
-Code works but is out-dated (written for Python2 and not object oriented). Will write a class based function shortly. 
+Code works but is out-dated (written for Python2 and not object oriented). Will write a class based function shortly. EDIT: Working on it this week. 
