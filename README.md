@@ -52,4 +52,4 @@ my_pump.set_idle()
 ```
 
 ## Non-supported functions:
-In this implementation it is not possible to: stream data, set liquid type and perform leak test.
+In this implementation it is not possible to: stream data, set liquid type and perform leak test. However, it should be possible to write these functions with the functions in this package.
