@@ -1,5 +1,5 @@
 # Dolomite Mitos P-pump control
-Python control for the Dolomite Mitos P-pump, a pump used in microfluidic applications.
+Python control for the Dolomite Mitos P-pump, a pump used for microfluidic applications.
 
 Control the [Mitos P-Pump](https://www.dolomite-microfluidics.com/product/mitos-p-pump/) from Dolomite, using serial communication.  
 Possible to use the pump in flow control mode or pressure control mode, and program a script to automate liquid dispensing.  
@@ -42,7 +42,7 @@ The pump can be operated in pressure control mode or in flow control mode. To st
 ```python
 my_pump.set_pressure(100, hold='00:00:01:05')
 ```
-To operate the pump in flow control mode and pump with a speed of 2 ul/s untill a stop command is send, run:
+To operate the pump in flow control mode and pump with a speed of 2 ul/s until a stop command is send, run:
 ```python
 my_pump.set_flow(2, unit='ul/s', hold='00:00:00:00')
 ```
